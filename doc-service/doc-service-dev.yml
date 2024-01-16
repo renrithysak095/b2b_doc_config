@@ -15,5 +15,5 @@ eureka:
 openapi:
   service:
     title: doc-service
-    version: 1.0.0s
+    version: 1.0.0
     url: http://localhost:8080
