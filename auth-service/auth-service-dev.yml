@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: 'jdbc:postgresql://192.168.178.239:5432/b2b_doc_dev'
+    username: '{cipher}7ddb8768418b4f61df5b756a81462eb0a26bfaf8a766dde35c6fe12dd7d97def'
+    password: '{cipher}320106eeb2386fa5507eaf3828b8b16f3fe2b920c61a5ab61ea79de11c5942ef'
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+openapi:
+  service:
+    title: auth-service
+    version: 1.0.0
+    url: http://localhost:8080
+springdoc:
+  api-docs:
+    path: /auth-service/v3/api-docs
+  swagger-ui:
+    path: /auth-service/swagger-ui.html  
