@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: 'jdbc:postgresql://178.128.52.39:5432/digital_asset_db'
-    username: '{cipher}92dcb704f8d45708ed68efa4702afdc92499fc735f30e7f8f236f993dfd09150'
-    password: '{cipher}5c1ecdb65474e50779c731476d94380bb6513ed9af9583522c13bbc2193afd25'
+    url: 'jdbc:postgresql://192.168.178.239:5432/b2b_doc_dev'
+    username: '{cipher}7ddb8768418b4f61df5b756a81462eb0a26bfaf8a766dde35c6fe12dd7d97def'
+    password: '{cipher}320106eeb2386fa5507eaf3828b8b16f3fe2b920c61a5ab61ea79de11c5942ef'
   jpa:
     hibernate:
       ddl-auto: update
