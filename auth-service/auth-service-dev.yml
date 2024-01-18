@@ -8,10 +8,16 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+file:
+  uploadPath: auth-service/src/main/resources/storage/
 openapi:
   service:
     title: auth-service
