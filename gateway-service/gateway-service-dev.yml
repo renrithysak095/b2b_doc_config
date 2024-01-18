@@ -15,3 +15,5 @@ springdoc:
         name: Gateway Service
       - url: /doc-service/v3/api-docs
         name: Doc Menu Service
+      - url: /auth-service/v3/api-docs
+        name: User Service
