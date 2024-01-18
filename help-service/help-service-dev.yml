@@ -28,4 +28,4 @@ springdoc:
     path: /help-service/v3/api-docs
   swagger-ui:
     path: /help-service/swagger-ui.html  
-baseURL: http://localhost
+baseURL: http://localhost:8082/
