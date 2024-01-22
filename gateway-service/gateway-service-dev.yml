@@ -17,3 +17,5 @@ springdoc:
         name: Doc Menu Service
       - url: /auth-service/v3/api-docs
         name: User Service
+      - url: /help-service/v3/api-docs
+        name: Help Service
