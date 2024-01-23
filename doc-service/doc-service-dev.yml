@@ -17,7 +17,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 file:
-  uploadPath: doc-service/src/main/resources/storage/
+  uploadPath: doc-menu-service/src/main/resources/storage/
 openapi:
   service:
     title: doc-service
