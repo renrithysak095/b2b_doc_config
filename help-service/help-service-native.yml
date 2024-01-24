@@ -4,3 +4,28 @@ spring:
     url: 'jdbc:postgresql://192.168.178.72:2345/postgres'
     username: '{cipher}ef0217d6bd1808890ab5e6b7263444d560a42698333716fbc4c0308e820533aa'
     password: '{cipher}46d755bdd2260d73eea4ee7a112a2c1ca61908502c0f88d54ffcae1edd37db13'
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+file:
+  uploadPath: help-service/src/main/resources/storage/
+openapi:
+  service:
+    title: help-service
+    version: 1.0.0
+    url: http://localhost:8080
+springdoc:
+  api-docs:
+    path: /help-service/v3/api-docs
+  swagger-ui:
+    path: /help-service/swagger-ui.html  
+baseURL: http://localhost:8082/
