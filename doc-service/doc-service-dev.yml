@@ -27,4 +27,6 @@ springdoc:
   api-docs:
     path: /doc-service/v3/api-docs
   swagger-ui:
-    path: /doc-service/swagger-ui.html  
+    path: /doc-service/swagger-ui.html
+authURL: http://localhost:8081/
+docURL: http://localhost:8082/
